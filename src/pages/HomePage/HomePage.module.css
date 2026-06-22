@@ -1,0 +1,35 @@
+.homePage {
+  padding-bottom: 60px;
+}
+
+.section {
+  margin-top: 60px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.sectionTitle {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.viewAll {
+  font-size: 16px;
+  color: var(--grey);
+  transition: color 0.3s;
+}
+
+.viewAll:hover {
+  color: var(--green);
+}
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}

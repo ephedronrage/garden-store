@@ -1,0 +1,109 @@
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 40px 0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 40px;
+  align-items: start;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.itemImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.itemInfo {
+  flex: 1;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.removeBtn {
+  padding: 8px 16px;
+  background: var(--red);
+  color: white;
+  border-radius: 6px;
+}
+
+.sidebar {
+  background: var(--light-grey);
+  padding: 30px;
+  border-radius: 12px;
+  position: sticky;
+  top: 150px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.totalAmount {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.orderBtn {
+  width: 100%;
+  padding: 15px;
+  background: var(--green);
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.empty {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.emptyTitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.continueShopping {
+  display: inline-block;
+  padding: 15px 40px;
+  background: var(--green);
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+}
